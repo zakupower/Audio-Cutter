@@ -7,5 +7,6 @@ Uses a simple interface created with javafx(fxml)
 * Cut - data class for cuts
 * AudioCutter - interface for audio cutters
 * WavCutter - implementation for the AudioCutter interface
+
 ![alt text](https://raw.githubusercontent.com/zakupower/Audio-Cutter/master/Capture.PNG)
 
