@@ -1,5 +1,5 @@
 # Audio Cutter 
-An application that creates cuts from an audio file (only wav atm). Uses [JAudio](http://jaudio.sourceforge.net/) for audio processing.
+An application that creates cuts from an audio file (only wav atm). Uses [JAudio](http://jaudio.sourceforge.net/) for the audio processing.
 Uses a simple interface created with javafx(fxml)
 ## Classes:
 * Main - starts the application and loads the fxml
