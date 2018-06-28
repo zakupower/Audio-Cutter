@@ -33,7 +33,7 @@ public class AudioFile {
     }
 
     public void saveFile(File directory,String name,String fileExtension)throws Exception{
-        AudioFileFormat.Type format = fileExtension=="wav"?AudioFileFormat.Type.WAVE:null;// for now i handle only WAV files
+        AudioFileFormat.Type format = fileExtension.equals("wav")?AudioFileFormat.Type.WAVE:null;// for now i handle only WAV files
         file.saveAudio(new File(directory.getPath() +"\\"+ name + "." + fileExtension), true, format, false);
     }
 
