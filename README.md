@@ -20,9 +20,9 @@ Uses a simple UI created with javafx(fxml).
 - [x] Extract file save from WavCutter
 - [x] Separate JAudio from the app
 - [x] Create checks for Cut class constructor
-- [x] Add css
+- [x] Change how the UI looks
 - [x] Create an icon for the app
 - [ ] Do proper unit tests
 - [ ] Add a loading bar
-- [ ] Change how the UI looks
+
 
