@@ -1,0 +1,43 @@
+.button:pressed{
+    -fx-padding: 5px 5px;
+    -fx-border-insets: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: rgba(28,179,239,1);
+    -webkit-border-radius: 3px;
+    -fx-border-radius: 3px;
+    -fx-font: normal 14px/normal Georgia, serif;
+    -fx-text-fill: white;
+    -fx-background-color: #57e1ff;
+}
+.button:hover {
+    -fx-padding: 5px 5px;
+    -fx-border-insets: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: #57e1ff;
+    -webkit-border-radius: 3px;
+    -fx-border-radius: 3px;
+    -fx-font: normal 14px/normal Georgia, serif;
+    -fx-text-fill: white;
+    -fx-background-color: #57e1ff;
+}
+.button {
+    -fx-padding: 5px 5px;
+    -fx-border-insets: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: rgba(28,179,239,1);
+    -webkit-border-radius: 3px;
+    -fx-border-radius: 3px;
+    -fx-font: normal 13px/normal Georgia, serif;
+    -fx-text-fill: white;
+    -fx-background-color: #1cb3ef;
+}
+.root{
+    -fx-base: #FFBD26;
+    -fx-background: #f2f2f2;
+}
+.label {
+    -fx-font: normal 13px/normal Georgia, serif;
+}
+.scroll-bar:vertical{
+    -fx-background-color: #f8f8f8;
+}

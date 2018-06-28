@@ -13,9 +13,9 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("mainApp.fxml"));
         primaryStage.setTitle("Audio Cutter");
-        primaryStage.setScene(new Scene(root, 600, 400));
-        primaryStage.setMinHeight(400);
-        primaryStage.setMinWidth(600);
+        primaryStage.setScene(new Scene(root, 625, 375));
+        primaryStage.setMinHeight(375);
+        primaryStage.setMinWidth(625);
         primaryStage.getIcons().add(new Image("file:ico3.png"));
 
         primaryStage.show();
