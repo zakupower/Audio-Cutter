@@ -15,3 +15,5 @@ Uses a simple interface created with javafx(fxml). The package "audio" is the on
 - [ ] Extract file save from WavCutter
 - [ ] Create checks for Cut class constructor
 - [ ] Do proper unit tests
+- [ ] Create an icon for the app
+- [ ] Change how the UI looks
