@@ -10,7 +10,7 @@ import java.io.File;
  * Created by Tomov on 28.6.2018 г..
  */
 public class AudioFile {
-    AudioSamples file;
+    private AudioSamples file;
 
     public AudioFile(AudioSamples file){
         this.file = file;
