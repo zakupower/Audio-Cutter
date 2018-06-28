@@ -16,7 +16,7 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.setMinHeight(400);
         primaryStage.setMinWidth(600);
-        primaryStage.getIcons().add(new Image("file:ico.png"));
+        primaryStage.getIcons().add(new Image("file:ico3.png"));
 
         primaryStage.show();
     }
