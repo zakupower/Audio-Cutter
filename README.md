@@ -25,6 +25,7 @@ Uses a simple UI created with javafx(fxml).
 - [x] Create checks for Cut class constructor
 - [x] Change how the UI looks
 - [x] Create an icon for the app
+- [ ] Convert from minutes in format 1:23 from and to fields
 - [ ] Do proper unit tests
 - [ ] Add a loading bar
 
