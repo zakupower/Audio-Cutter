@@ -2,6 +2,9 @@
 An application that creates cuts from an audio file (only wav atm). Uses [JAudio](http://jaudio.sourceforge.net/) for the audio processing.
 Uses a simple interface created with javafx(fxml). The package "audio" is the one created by me.
 
+![alt text](https://raw.githubusercontent.com/zakupower/Audio-Cutter/master/ico.png)
+
+![alt text](https://raw.githubusercontent.com/zakupower/Audio-Cutter/master/Capture1.PNG)
 ## Classes:
 * Main - starts the application and loads the fxml
 * Controller - controls the UI
@@ -17,6 +20,6 @@ Uses a simple interface created with javafx(fxml). The package "audio" is the on
 - [x] Create checks for Cut class constructor
 - [ ] Do proper unit tests
 - [ ] Add a loading bar
-- [ ] Create an icon for the app
+- [x] Create an icon for the app
 - [ ] Change how the UI looks
 
