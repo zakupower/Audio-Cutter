@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Audio Cutter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Audio_Cutter_jar</output-path>
+    <root id="archive" name="Audio Cutter.jar">
+      <element id="module-output" name="Audio Cutter" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../1.Java Libraries/jAudio-1.0.4/jAudio/jAudio-1.0.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
