@@ -9,14 +9,15 @@ import jAudioFeatureExtractor.jAudioTools.AudioSamples;
 import javax.sound.sampled.AudioFileFormat;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Tomov on 25.6.2018 г..
  */
 public class WavCutter implements AudioCutter {
     private File inputFile;
-    private ArrayList<Cut> cuts;
-    private ArrayList<AudioSamples> cutFiles = new ArrayList<>();
+    private List<Cut> cuts;
+    private List<AudioFile> cutFiles = new ArrayList<>();
 
 
     public void tryToCreateCutFiles(File inputFile, ArrayList<Cut> cuts){
@@ -30,22 +31,15 @@ public class WavCutter implements AudioCutter {
     }
 
     private void createCutFiles() throws Exception{
-        AudioSamples as = new AudioSamples(inputFile,"",false);
+        AudioFile as = new AudioFile(inputFile);
         for(Cut cut: cuts){
-            double[][] cutSamples = as.getSamplesChannelSegregated(cut.getFrom(), cut.getTo());
-            AudioSamples cutFile = new AudioSamples(cutSamples,as.getAudioFormat(),"",false);
+            AudioFile cutFile  = as.getFromTo(cut.getFrom(), cut.getTo());
             cutFiles.add(cutFile);
         }
     }
-
-    public void saveCutFilesTo(File file){
-        try {
-            for (int i = 0; i < cutFiles.size(); i++) {
-                cutFiles.get(i).saveAudio(new File(file.getPath() +"\\"+ cuts.get(i).getName() + ".wav"), true, AudioFileFormat.Type.WAVE, false);
-            }
-        } catch(Exception exc){
-            exc.printStackTrace();
-        }
+    public List<AudioFile> getCutFiles(){
+        return cutFiles;
     }
+
 
 }

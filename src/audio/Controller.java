@@ -1,7 +1,5 @@
 package audio;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
@@ -103,9 +101,20 @@ public class Controller {
 
         AudioCutter cutter = new WavCutter();
         cutter.tryToCreateCutFiles(fileToCut,cuts);
-        cutter.saveCutFilesTo(directoryToSave);
+        AudioFileSaver saver = new AudioFileSaver(cutter.getCutFiles(),cuts,directoryToSave,getFileExtension(fileToCut));
+        saver.tryToSaveCutFilesTo();
         System.out.println("Done cutting");
 
+    }
+
+    private String getFileExtension(File file) {
+        if (file == null) {
+            return "";
+        }
+        String name = file.getName();
+        int i = name.lastIndexOf('.');
+        String ext = i > 0 ? name.substring(i + 1) : "";
+        return ext;
     }
     private ArrayList<Cut> createCuts(){
         ArrayList<Cut> cuts = new ArrayList<>();
@@ -115,6 +124,8 @@ public class Controller {
                     cuts.add(new Cut(nameFieldsList.get(i).getText(), Double.parseDouble(fromFieldsList.get(i).getText()), Double.parseDouble(toFieldsList.get(i).getText())));
                 }catch(NumberFormatException exc){
                    // to or from fields are not numbers
+                }catch(InvalidCutException exc) {
+                    //to or from fields are negative or from >= cut
                 }
             } else {
                 // one of fields is empty
