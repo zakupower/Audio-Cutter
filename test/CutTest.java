@@ -9,10 +9,10 @@ import static org.junit.Assert.assertEquals;
  * Created by Tomov on 27.6.2018 г..
  */
 public class CutTest {
-    Cut goodCut,badCut;
-    String name = "My Song 1";
-    double from = 10.0;
-    double to = 30.0;
+    private Cut goodCut,badCut;
+    private String name = "My Song 1";
+    private double from = 10.0;
+    private double to = 30.0;
     @Test(expected = InvalidCutException.class)
     public void testConstructorFailNegative() throws InvalidCutException{
         badCut = new Cut("My Song 1",-10,30);

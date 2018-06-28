@@ -1,8 +1,5 @@
 package audio;
 
-import jAudioFeatureExtractor.jAudioTools.AudioSamples;
-
-import javax.sound.sampled.AudioFileFormat;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
