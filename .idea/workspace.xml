@@ -98,8 +98,8 @@
       <file leaf-file-name="AudioFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/audio/AudioFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="303">
+              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -872,7 +872,7 @@
       <workItem from="1530212601011" duration="3648000" />
       <workItem from="1530216570831" duration="865000" />
       <workItem from="1530218544741" duration="41000" />
-      <workItem from="1530218764406" duration="38000" />
+      <workItem from="1530218764406" duration="230000" />
     </task>
     <servers />
   </component>
@@ -894,7 +894,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30364000" />
+    <option name="totallyTimeSpent" value="30556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="525" y="83" width="1402" height="1047" extended-state="0" />
@@ -1458,8 +1458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/audio/AudioFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="303">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
