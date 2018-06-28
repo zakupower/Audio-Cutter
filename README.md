@@ -17,6 +17,6 @@ Uses a simple interface created with javafx(fxml). The package "audio" is the on
 - [x] Create checks for Cut class constructor
 - [ ] Do proper unit tests
 - [ ] Add a loading bar
-- [ ] Create an icon for the app
+- [x] Create an icon for the app
 - [ ] Change how the UI looks
 
