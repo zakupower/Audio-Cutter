@@ -26,7 +26,7 @@ Uses a simple UI created with javafx(fxml).
 - [x] Change how the UI looks
 - [x] Create an icon for the app
 - [ ] Convert from minutes in format 1:23 from and to fields
-- [ ] aAdd mp3 support
+- [ ] Add mp3 support
 - [ ] Do proper unit tests
 - [ ] Add a loading bar
 
