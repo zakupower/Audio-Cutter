@@ -14,7 +14,7 @@ Uses a simple interface created with javafx(fxml). The package "audio" is the on
 
 
 
-## TO DO
+### TO DO
 - [x] Extract file save from WavCutter
 - [x] Separate JAudio from the app
 - [x] Create checks for Cut class constructor
