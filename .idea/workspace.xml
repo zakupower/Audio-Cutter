@@ -60,6 +60,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/audio/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Cut.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/audio/Cut.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/audio/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="103" column="119" selection-start-line="103" selection-start-column="119" selection-end-line="103" selection-end-column="119" />
+            <state relative-caret-position="156">
+              <caret line="96" column="46" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initialize#0;class#Controller#0" expanded="false" />
@@ -136,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/cern/colt/matrix/DoubleFactory2D.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/audio/Main.java" />
         <option value="$PROJECT_DIR$/src/audio/mainApp.fxml" />
         <option value="$PROJECT_DIR$/test/TestJUnit.java" />
         <option value="$PROJECT_DIR$/test/TestRunner.java" />
@@ -150,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/audio/Cut.java" />
         <option value="$PROJECT_DIR$/src/audio/Controller.java" />
         <option value="$PROJECT_DIR$/test/CutTest.java" />
+        <option value="$PROJECT_DIR$/src/audio/Main.java" />
       </list>
     </option>
   </component>
@@ -793,7 +805,7 @@
       <workItem from="1529947580682" duration="721000" />
       <workItem from="1529955633887" duration="4350000" />
       <workItem from="1530125859627" duration="1826000" />
-      <workItem from="1530184830422" duration="3500000" />
+      <workItem from="1530184830422" duration="4623000" />
     </task>
     <servers />
   </component>
@@ -806,10 +818,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22611000" />
+    <option name="totallyTimeSpent" value="23734000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="555" y="0" width="1187" height="1047" extended-state="1" />
+    <frame x="555" y="0" width="1187" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1130,16 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/audio/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/audio/Cut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1166,8 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/audio/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="103" column="119" selection-start-line="103" selection-start-column="119" selection-end-line="103" selection-end-column="119" />
+        <state relative-caret-position="156">
+          <caret line="96" column="46" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initialize#0;class#Controller#0" expanded="false" />
@@ -1175,6 +1177,16 @@
             <element signature="method#saveDirectoryPick#0;class#Controller#0" expanded="false" />
             <element signature="method#addCutFields#0;class#Controller#0" expanded="false" />
             <element signature="method#getFileExtension#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
