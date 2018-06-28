@@ -13,6 +13,7 @@ Uses a simple interface created with javafx(fxml). The package "audio" is the on
 
 ## TO DO
 - [ ] Extract file save from WavCutter
+- [ ] Separate JAudio from the app
 - [ ] Create checks for Cut class constructor
 - [ ] Do proper unit tests
 - [ ] Create an icon for the app
