@@ -3,7 +3,7 @@
 <img width="100" height="100" alt="alt text" src="https://raw.githubusercontent.com/zakupower/Audio-Cutter/master/ico3.png">
 
 An application that creates cuts from an audio file (only wav atm). Uses [JAudio](http://jaudio.sourceforge.net/) for the audio processing.
-Uses a simple interface created with javafx(fxml). The package "audio" is the one created by me.
+Uses a simple UI created with javafx(fxml).
 
 ![alt text](https://raw.githubusercontent.com/zakupower/Audio-Cutter/master/Capture2.PNG)
 
