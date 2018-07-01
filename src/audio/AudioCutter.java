@@ -1,6 +1,5 @@
 package audio;
 
-import jAudioFeatureExtractor.jAudioTools.AudioSamples;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -9,7 +8,32 @@ import java.util.List;
 /**
  * Created by Tomov on 25.6.2018 г..
  */
-public interface AudioCutter {
-    void tryToCreateCutFiles(File inputFile, ArrayList<Cut> cuts);
-    List<AudioFile> getCutFiles();
+public class AudioCutter{
+    private File inputFile;
+    private List<Cut> cuts;
+    private List<WavFile> cutFiles = new ArrayList<>();
+
+
+    public void tryToCreateCutFiles(File inputFile, ArrayList<Cut> cuts){
+        this.inputFile = inputFile;
+        this.cuts = cuts;
+        try {
+            createCutFiles();
+        } catch(Exception exc) {
+            exc.printStackTrace();
+        }
+    }
+
+    private void createCutFiles() throws Exception{
+        WavFile as = new WavFile(inputFile);
+        for(Cut cut: cuts){
+            WavFile cutFile  = as.getFromTo(cut.getFrom(), cut.getTo());
+            cutFiles.add(cutFile);
+        }
+    }
+    public List<WavFile> getCutFiles(){
+        return cutFiles;
+    }
+
+
 }

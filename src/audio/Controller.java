@@ -44,7 +44,7 @@ public class Controller {
     public void fileToCutPick(ActionEvent event) {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Open mp3 file");
-        fileChooser.getExtensionFilters().addAll(new ExtensionFilter("Audio Files","*.wav"));
+        fileChooser.getExtensionFilters().addAll(new ExtensionFilter("Audio Files","*.wav","*.mp3"),new ExtensionFilter("All Files", "*.*"));
         File selectedFile = fileChooser.showOpenDialog(nameField.getScene().getWindow());
         if (selectedFile != null) {
             openField.setText(selectedFile.getPath());
@@ -99,7 +99,7 @@ public class Controller {
         File fileToCut = new File(openField.getText()),
             directoryToSave = new File(saveField.getText());
 
-        AudioCutter cutter = new WavCutter();
+        AudioCutter cutter = new AudioCutter();
         cutter.tryToCreateCutFiles(fileToCut,cuts);
         AudioFileSaver saver = new AudioFileSaver(cutter.getCutFiles(),cuts,directoryToSave,getFileExtension(fileToCut));
         saver.tryToSaveCutFilesTo();
