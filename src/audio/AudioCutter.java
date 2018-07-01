@@ -32,7 +32,7 @@ public class AudioCutter{
                 cutFiles.add(cutFile);
             }
         } else {
-            throw new Exception("Audio format not supported");
+            throw new InvalidAudioFormatException("Audio format not supported");
         }
 
     }
