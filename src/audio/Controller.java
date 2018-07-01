@@ -44,7 +44,7 @@ public class Controller {
     public void fileToCutPick(ActionEvent event) {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Open mp3 file");
-        fileChooser.getExtensionFilters().addAll(new ExtensionFilter("Audio Files","*.wav","*.mp3"),new ExtensionFilter("All Files", "*.*"));
+        fileChooser.getExtensionFilters().addAll(new ExtensionFilter("Audio Files","*.wav"));
         File selectedFile = fileChooser.showOpenDialog(nameField.getScene().getWindow());
         if (selectedFile != null) {
             openField.setText(selectedFile.getPath());
@@ -101,21 +101,13 @@ public class Controller {
 
         AudioCutter cutter = new AudioCutter();
         cutter.tryToCreateCutFiles(fileToCut,cuts);
-        AudioFileSaver saver = new AudioFileSaver(cutter.getCutFiles(),cuts,directoryToSave,getFileExtension(fileToCut));
+        AudioFileSaver saver = new AudioFileSaver(cutter.getCutFiles(),cuts,directoryToSave,AudioFile.getFileExtension(fileToCut));
         saver.tryToSaveCutFilesTo();
         System.out.println("Done cutting");
 
     }
 
-    private String getFileExtension(File file) {
-        if (file == null) {
-            return "";
-        }
-        String name = file.getName();
-        int i = name.lastIndexOf('.');
-        String ext = i > 0 ? name.substring(i + 1) : "";
-        return ext;
-    }
+
     private ArrayList<Cut> createCuts(){
         ArrayList<Cut> cuts = new ArrayList<>();
         for(int i = 0; i < nameFieldsList.size(); i++){

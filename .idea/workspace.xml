@@ -85,8 +85,8 @@
       <file leaf-file-name="WavFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/audio/WavFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="360">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +97,8 @@
       <file leaf-file-name="AudioFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/audio/AudioFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -107,25 +107,12 @@
       <file leaf-file-name="AudioCutter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/audio/AudioCutter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="335">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/audio/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-350">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-              <folding>
-                <element signature="method#initialize#0;class#Controller#0" expanded="false" />
-                <element signature="method#saveDirectoryPick#0;class#Controller#0" expanded="false" />
-                <element signature="method#addCutFields#0;class#Controller#0" expanded="false" />
-                <element signature="method#getFileExtension#0;class#Controller#0" expanded="false" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,17 +156,17 @@
         <option value="$PROJECT_DIR$/src/audio/InvalidCutException.java" />
         <option value="$PROJECT_DIR$/src/audio/Main.java" />
         <option value="$PROJECT_DIR$/src/audio/mainApp.fxml" />
-        <option value="$PROJECT_DIR$/src/audio/mainAppCss.css" />
         <option value="$PROJECT_DIR$/src/audio/Cut.java" />
         <option value="$PROJECT_DIR$/test/CutTest.java" />
-        <option value="$PROJECT_DIR$/src/audio/AudioFileSaver.java" />
         <option value="$PROJECT_DIR$/src/audio/Converter.java" />
         <option value="$PROJECT_DIR$/src/audio/Mp3Cutter.java" />
-        <option value="$PROJECT_DIR$/src/audio/Controller.java" />
-        <option value="$PROJECT_DIR$/src/audio/WavFile.java" />
-        <option value="$PROJECT_DIR$/src/audio/AudioFile.java" />
         <option value="$PROJECT_DIR$/src/audio/WavCutter.java" />
+        <option value="$PROJECT_DIR$/src/audio/WavFile.java" />
         <option value="$PROJECT_DIR$/src/audio/AudioCutter.java" />
+        <option value="$PROJECT_DIR$/src/audio/AudioFileSaver.java" />
+        <option value="$PROJECT_DIR$/src/audio/AudioFile.java" />
+        <option value="$PROJECT_DIR$/src/audio/Controller.java" />
+        <option value="$PROJECT_DIR$/src/audio/mainAppCss.css" />
       </list>
     </option>
   </component>
@@ -830,7 +817,7 @@
       <workItem from="1530216570831" duration="865000" />
       <workItem from="1530218544741" duration="41000" />
       <workItem from="1530218764406" duration="467000" />
-      <workItem from="1530428245389" duration="1851000" />
+      <workItem from="1530428245389" duration="2649000" />
     </task>
     <servers />
   </component>
@@ -852,7 +839,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32644000" />
+    <option name="totallyTimeSpent" value="33442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1008,13 +995,12 @@
             <element signature="method#fileToCutPick#0;class#Controller#0" expanded="false" />
             <element signature="method#saveDirectoryPick#0;class#Controller#0" expanded="false" />
             <element signature="method#addCutFields#0;class#Controller#0" expanded="false" />
-            <element signature="method#getFileExtension#0;class#Controller#0" expanded="false" />
-            <element signature="e#4949#4950#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5030#5031#0" expanded="false" />
-            <element signature="e#5083#5084#0" expanded="false" />
-            <element signature="e#5125#5126#0" expanded="false" />
-            <element signature="e#5178#5179#0" expanded="false" />
+            <element signature="e#4642#4643#0" expanded="false" />
+            <element signature="e#4680#4681#0" expanded="false" />
+            <element signature="e#4723#4724#0" expanded="false" />
+            <element signature="e#4776#4777#0" expanded="false" />
+            <element signature="e#4818#4819#0" expanded="false" />
+            <element signature="e#4871#4872#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1082,13 +1068,12 @@
             <element signature="method#fileToCutPick#0;class#Controller#0" expanded="false" />
             <element signature="method#saveDirectoryPick#0;class#Controller#0" expanded="false" />
             <element signature="method#addCutFields#0;class#Controller#0" expanded="false" />
-            <element signature="method#getFileExtension#0;class#Controller#0" expanded="false" />
-            <element signature="e#4949#4950#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5030#5031#0" expanded="false" />
-            <element signature="e#5083#5084#0" expanded="false" />
-            <element signature="e#5125#5126#0" expanded="false" />
-            <element signature="e#5178#5179#0" expanded="false" />
+            <element signature="e#4642#4643#0" expanded="false" />
+            <element signature="e#4680#4681#0" expanded="false" />
+            <element signature="e#4723#4724#0" expanded="false" />
+            <element signature="e#4776#4777#0" expanded="false" />
+            <element signature="e#4818#4819#0" expanded="false" />
+            <element signature="e#4871#4872#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1126,6 +1111,8 @@
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1206,13 +1193,12 @@
             <element signature="method#fileToCutPick#0;class#Controller#0" expanded="false" />
             <element signature="method#saveDirectoryPick#0;class#Controller#0" expanded="false" />
             <element signature="method#addCutFields#0;class#Controller#0" expanded="false" />
-            <element signature="method#getFileExtension#0;class#Controller#0" expanded="false" />
-            <element signature="e#4949#4950#0" expanded="false" />
-            <element signature="e#4987#4988#0" expanded="false" />
-            <element signature="e#5030#5031#0" expanded="false" />
-            <element signature="e#5083#5084#0" expanded="false" />
-            <element signature="e#5125#5126#0" expanded="false" />
-            <element signature="e#5178#5179#0" expanded="false" />
+            <element signature="e#4642#4643#0" expanded="false" />
+            <element signature="e#4680#4681#0" expanded="false" />
+            <element signature="e#4723#4724#0" expanded="false" />
+            <element signature="e#4776#4777#0" expanded="false" />
+            <element signature="e#4818#4819#0" expanded="false" />
+            <element signature="e#4871#4872#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1354,24 +1340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/audio/mainAppCss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/audio/AudioFileSaver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/audio/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1406,16 +1374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/audio/WavFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/audio/AudioCutter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1424,33 +1382,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/audio/Controller.java">
+    <entry file="file://$PROJECT_DIR$/src/audio/WavFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-          <folding>
-            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
-            <element signature="method#saveDirectoryPick#0;class#Controller#0" expanded="false" />
-            <element signature="method#addCutFields#0;class#Controller#0" expanded="false" />
-            <element signature="method#getFileExtension#0;class#Controller#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/audio/AudioCutter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="360">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="46" column="93" selection-start-line="46" selection-start-column="93" selection-end-line="46" selection-end-column="93" />
+          <folding>
+            <element signature="method#initialize#0;class#Controller#0" expanded="false" />
+            <element signature="method#saveDirectoryPick#0;class#Controller#0" expanded="false" />
+            <element signature="method#addCutFields#0;class#Controller#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/mainAppCss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/AudioFileSaver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/AudioCutter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/audio/AudioFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding />
         </state>
       </provider>

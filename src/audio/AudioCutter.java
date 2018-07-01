@@ -11,7 +11,7 @@ import java.util.List;
 public class AudioCutter{
     private File inputFile;
     private List<Cut> cuts;
-    private List<WavFile> cutFiles = new ArrayList<>();
+    private List<AudioFile> cutFiles = new ArrayList<>();
 
 
     public void tryToCreateCutFiles(File inputFile, ArrayList<Cut> cuts){
@@ -25,13 +25,18 @@ public class AudioCutter{
     }
 
     private void createCutFiles() throws Exception{
-        WavFile as = new WavFile(inputFile);
-        for(Cut cut: cuts){
-            WavFile cutFile  = as.getFromTo(cut.getFrom(), cut.getTo());
-            cutFiles.add(cutFile);
+        if(("wav").equals(AudioFile.getFileExtension(inputFile))){
+            AudioFile as = new WavFile(inputFile);
+            for(Cut cut: cuts){
+                AudioFile cutFile  = as.getFromTo(cut.getFrom(), cut.getTo());
+                cutFiles.add(cutFile);
+            }
+        } else {
+
         }
+
     }
-    public List<WavFile> getCutFiles(){
+    public List<AudioFile> getCutFiles(){
         return cutFiles;
     }
 

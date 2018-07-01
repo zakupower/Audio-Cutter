@@ -13,10 +13,10 @@
     -fx-padding: 5px 5px;
     -fx-border-insets: 1px;
     -fx-border-style: solid;
-    -fx-border-color: #57e1ff;
+    -fx-border-color: rgba(28,179,239,1);
     -webkit-border-radius: 3px;
     -fx-border-radius: 3px;
-    -fx-font: normal 14px/normal Georgia, serif;
+    -fx-font: normal 13px/normal Georgia, serif;
     -fx-text-fill: white;
     -fx-background-color: #57e1ff;
 }

@@ -11,7 +11,6 @@ import java.io.File;
  */
 public class WavFile implements AudioFile{
     private AudioSamples file;
-
     public WavFile(AudioSamples file){
         this.file = file;
     }
