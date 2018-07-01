@@ -9,6 +9,7 @@ public class Cut {
     private double from,to;
 
     public Cut(String name, double from, double to) throws InvalidCutException {
+        if(name.isEmpty() || name.trim().isEmpty()) throw new InvalidCutException();
         if(from>=to || from < 0 || to < 0) throw new InvalidCutException();
         this.name = name;
         this.from = from;
