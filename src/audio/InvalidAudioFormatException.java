@@ -8,5 +8,6 @@ public class InvalidAudioFormatException extends Exception{
         super(msg);
     }
     public InvalidAudioFormatException(){
+        super();
     }
 }

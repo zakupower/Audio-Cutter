@@ -1,6 +1,9 @@
 package audio;
 
 
+import javafx.scene.control.ProgressBar;
+import javafx.scene.control.ProgressIndicator;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +15,6 @@ public class AudioCutter{
     private File inputFile;
     private List<Cut> cuts;
     private List<AudioFile> cutFiles = new ArrayList<>();
-
 
     public void tryToCreateCutFiles(File inputFile, ArrayList<Cut> cuts){
         this.inputFile = inputFile;
@@ -39,6 +41,5 @@ public class AudioCutter{
     public List<AudioFile> getCutFiles(){
         return cutFiles;
     }
-
 
 }

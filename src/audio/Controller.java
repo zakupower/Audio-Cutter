@@ -1,9 +1,12 @@
 package audio;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
 import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
+import javafx.scene.control.ProgressIndicator;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -29,6 +32,12 @@ public class Controller {
     private TextField saveField;
     @FXML
     private Label errorLabel;
+    @FXML
+    private ProgressBar progressBar;
+    @FXML
+    private ProgressIndicator progressIndicator;
+    @FXML
+    private HBox progressHBox;
     private ArrayList<Cut> cuts;
     private List<TextField> nameFieldsList = new ArrayList<>();
     private List<TextField> fromFieldsList = new ArrayList<>();
@@ -49,6 +58,8 @@ public class Controller {
         if (selectedFile != null) {
             openField.setText(selectedFile.getPath());
             openField.setStyle("");
+            progressBar.setProgress(0);
+            progressIndicator.setProgress(0);
         }
     }
     @FXML
@@ -95,14 +106,22 @@ public class Controller {
             return;
         }
         System.out.println("Started cutting");
+        progressBar.setProgress(-1);
+        progressIndicator.setProgress(-1);
         errorLabel.setText("");
         File fileToCut = new File(openField.getText()),
             directoryToSave = new File(saveField.getText());
-
-        AudioCutter cutter = new AudioCutter();
-        cutter.tryToCreateCutFiles(fileToCut,cuts);
-        AudioFileSaver saver = new AudioFileSaver(cutter.getCutFiles(),cuts,directoryToSave,AudioFile.getFileExtension(fileToCut));
-        saver.tryToSaveCutFilesTo();
+        try {
+            AudioCutter cutter = new AudioCutter();
+            cutter.tryToCreateCutFiles(fileToCut, cuts);
+            AudioFileSaver saver = new AudioFileSaver(cutter.getCutFiles(), cuts, directoryToSave, AudioFile.getFileExtension(fileToCut));
+            saver.tryToSaveCutFilesTo();
+            progressBar.setProgress(1);
+            progressIndicator.setProgress(1);
+        } catch(Exception exc){ // HeapSpace exception when the cuts are too big or too many
+            errorLabel.setText("Too much cuts");
+            exc.printStackTrace();
+        }
         System.out.println("Done cutting");
 
     }
