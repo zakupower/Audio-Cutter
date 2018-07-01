@@ -1,8 +1,6 @@
 import audio.Cut;
 import audio.InvalidCutException;
-import org.junit.Before;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.assertEquals;
 
@@ -17,11 +15,11 @@ public class CutTest {
 
 
     @Test(expected = InvalidCutException.class)
-    public void onlySpaceName() throws InvalidCutException{
+    public void onlySpaceNameConstructor() throws InvalidCutException{
         badCut = new Cut("       ",10,30);
     }
     @Test(expected = InvalidCutException.class)
-    public void emptyName() throws InvalidCutException{
+    public void emptyNameConstructor() throws InvalidCutException{
         badCut = new Cut("",10,30);
     }
     @Test(expected = InvalidCutException.class)

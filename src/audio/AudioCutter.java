@@ -1,9 +1,6 @@
 package audio;
 
 
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.ProgressIndicator;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
