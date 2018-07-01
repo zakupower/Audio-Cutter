@@ -11,9 +11,9 @@ Uses a simple UI created with javafx(fxml).
 * Main - starts the application and loads the fxml
 * Controller - controls the UI
 * Cut - data class for cuts
-* AudioCutter - interface for audio cutters
-* WavCutter - implementation for the AudioCutter interface
-* AudioFile - separates the external lib from the app
+* AudioCutter - Cuts audio files
+* AudioFile - interface that separates the external lib from the app
+* WavFile - implements AudioFile
 * AudioFileSaver - used to save all the cuts
 
 
